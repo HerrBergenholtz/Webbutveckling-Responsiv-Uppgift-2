@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+    background-color: cyan;
+}
+
+main section section {
+    height: 100%;
+    width: 50%;
+    background-color: orange;
+    border-radius: 100%;
+}
